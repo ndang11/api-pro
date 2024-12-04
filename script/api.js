@@ -7,13 +7,13 @@ fetch('https://www.swapi.tech/api/films')
     const titleThree = document.getElementById('paragraph-three')
     const titleFour = document.getElementById('paragraph-four')
     const titleFive = document.getElementById('paragraph-five')
-    const titleSix = document.getElementById("paragraph-six")
+    const titleSix = document.getElementById('paragraph-six')
     for (let index = 0; index < data.result.length; index++) {
-      tleOne.innerHTML = data.result[0].properties.title
-      tleTwo.innerHTML = data.result[1].properties.title
-      tleThree.innerHTML = data.result[2].properties.title
-      tleFour.innerHTML = data.result[3].properties.title
-      tleFive.innerHTML = data.result[4].properties.title
+      titleOne.innerHTML = data.result[0].properties.title
+      titleTwo.innerHTML = data.result[1].properties.title
+      titleThree.innerHTML = data.result[2].properties.title
+      titleFour.innerHTML = data.result[3].properties.title
+      titleFive.innerHTML = data.result[4].properties.title
       titleSix.innerHTML = data.result[5].properties.title
     }
   })
