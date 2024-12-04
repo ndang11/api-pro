@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #00ffff;
+  line-height: 24px;
+  word-spacing: 1px;
+  width: 100%;
+  height: 100vh;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-wrap {
+  width: 80%;
+  margin: auto;
+  background-color: antiquewhite;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 70vh;
+  border: 1px solid black;
+}
+
+.line-one {
+  background-color: blue;
+}
+
+.line-two {
+  background-color: blueviolet;
+}
+
+.line-three {
+  background-color: brown;
+}
+
+.line-four {
+  background-color: coral;
+}
+
+.line-five {
+  background-color: yellow;
+}
+
+.line-six {
+  background-color: seagreen;
+} 
